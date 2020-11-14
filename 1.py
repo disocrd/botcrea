@@ -17,4 +17,5 @@ elif message.content == "?도움말":
     ```
     >삭제 삭제할 양\n>킥 @mention\n>밴 @mention
     ```""", inline=False)
+    embed.set_footer(text=f"{message.author}님에게 요청됨")
     await message.channel.send(embed=embed)
