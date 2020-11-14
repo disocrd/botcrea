@@ -1,5 +1,6 @@
 elif message.content == "?도움말":
     embed=discord.Embed(colour=0x3AFF01)
+    embed.set_thumbail(url"https://www.google.co.kr/search?q=T+%EC%95%84%EC%9D%B4%EC%BD%98&sxsrf=ALeKk03op9eoA-SDvDlSnuVhbzYHm7OQUQ:1605368336964&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiL_NSLr4LtAhWUQN4KHabHBkYQ_AUoAXoECAsQAw&biw=954&bih=998#imgrc=fC7MTOouV6YM6M")
     embed.add_field(name="Kaiabot help", value="카야봇 도움말\n자세한내용은 공식 디스코드 참조", inline=False)
     embed.add_field(name="게임", value="""
     ```
